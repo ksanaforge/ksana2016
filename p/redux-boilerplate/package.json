@@ -5,7 +5,7 @@
   "main": "index.html",
   "single-instance":true,
 	"scripts": {
-  	"start": "watchify src/index.js -o static/bundle.js -dv -p livereactload -u react-native -x react -x react-dom -x ksana-codemirror -x codemirror",
-  	"build": "browserify src/index.js -t babelify  -x ksana-codemirror -x codemirror -u react-native -x react -x react-dom  | uglifyjs --screw-ie8 -c=dead_code,evaluate,loops,unused > static/bundle.js"
+  	"start": "watchify src/index.js -o static/bundle.js -dv -p livereactload  -x react -x react-dom -x ksana-codemirror -x codemirror",
+  	"build": "browserify src/index.js -t [ babelify --presets es2015 ]  -x ksana-codemirror -x codemirror  -x react -x react-dom  | uglifyjs --screw-ie8 -c=dead_code,evaluate,loops,unused > static/bundle.js"
 	 }
 }

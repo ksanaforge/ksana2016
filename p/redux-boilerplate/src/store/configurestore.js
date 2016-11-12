@@ -4,9 +4,9 @@ const reducer=require('../reducers');
 const createStoreWithMiddleware = applyMiddleware(
   thunk
 )(createStore);
-
+const devtool=window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
 const configureStore=function(initialState) {
-  const store = createStoreWithMiddleware(reducer, initialState);
+  const store = createStoreWithMiddleware(reducer, initialState, devtool);
 //const store=createStore(reducer,applyMiddleware(thunk));
 
   // When using WebPack, module.hot.accept should be used. In LiveReactload,
