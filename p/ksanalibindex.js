@@ -8,4 +8,5 @@ if (typeof global!=="undefined") {
 	window.KsanaCorpus=require("ksana-corpus");
 	window.KsanaCorpusSearch=require("ksana-corpus-search");
 	window.KsanaCorpusROM=require("ksana-corpus-rom");		
+	debugger
 }
