@@ -19,7 +19,8 @@
     "redux": "^3.6.0",
     "redux-thunk": "^2.1.0",
     "sax": "^1.2.1",
-    "envify":"^4.0.0"
+    "envify":"^4.0.0",
+    "ksana-corpus-lib":"^1.1.0"
   },
   "devDependencies": {
     "mocha": "^2.2.1"
