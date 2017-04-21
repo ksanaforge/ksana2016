@@ -11,15 +11,19 @@ https://www.codementor.io/javascript/tutorial/es2015-project-setup-browserify-ba
 
 ksana libraries in ksana/node_modules ,3rd party libries in node_modules, Application under ksana folder
 
+npm i -g uglifyjs browerify watchify
+
 to start development
 
-		cd ksana
+	cd "ksana-app"
     http-server   // or any other web server
     npm start  
 
 build separate bundle for react 
 	
-	  react-bundle.cmd
+	react-bundle.cmd
+	codemirror-bundle.cmd
+	
 
 production build
 
