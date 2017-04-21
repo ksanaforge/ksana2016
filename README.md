@@ -1,5 +1,6 @@
 # ksana2016
-ksana 2016 development boiler plate
+
+require node.js 7.9.0 or above
 
 browserify+redux+react hot reloader+babel
 
@@ -23,7 +24,7 @@ build separate bundle for react
 	
 	react-bundle.cmd
 	codemirror-bundle.cmd
-	
+
 
 production build
 
