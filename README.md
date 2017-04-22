@@ -1,5 +1,7 @@
 # ksana2016
 
+require node.js 7.9.0 or above
+
 ==create ksanalib.min.js==
     makeksanalib.cmd
 
@@ -16,11 +18,7 @@
     ./node_modules installed by npm i
     ./p/node_modules installed by git
 
-
-==Reference==
-
-browserify+redux+react hot reloader+babel
-
+==reference==
 features:
 https://github.com/milankinen/livereactload
 
